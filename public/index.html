@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Тренажёр CKZ przewoźnika</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Literata:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f6f4;
+    --surface: #ffffff;
+    --ink: #17212b;
+    --muted: #5d6a76;
+    --line: #d3d9de;
+    --accent: #2f4bd8;
+    --accent-ink: #ffffff;
+    --ok: #16803c;
+    --ok-bg: #e6f4ea;
+    --bad: #b83228;
+    --bad-bg: #fbeae8;
+    --serif: 'Literata', Georgia, 'Times New Roman', serif;
+    --sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #11161b;
+      --surface: #182028;
+      --ink: #e6ebef;
+      --muted: #93a0ab;
+      --line: #2c3742;
+      --accent: #8296ff;
+      --accent-ink: #0b1030;
+      --ok: #5cc580;
+      --ok-bg: #15291d;
+      --bad: #ff8f85;
+      --bad-bg: #2e1917;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #11161b;
+    --surface: #182028;
+    --ink: #e6ebef;
+    --muted: #93a0ab;
+    --line: #2c3742;
+    --accent: #8296ff;
+    --accent-ink: #0b1030;
+    --ok: #5cc580;
+    --ok-bg: #15291d;
+    --bad: #ff8f85;
+    --bad-bg: #2e1917;
+  }
+  html { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 64px); }
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+  }
+  .app { max-width: 720px; margin: 0 auto; padding: 18px 16px 40px; }
+  button { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .top { margin-bottom: 16px; }
+  .top h1 { margin: 0; font-size: 1.05rem; font-weight: 600; }
+  .top .src { margin: 2px 0 0; color: var(--muted); font-size: .86rem; overflow-wrap: anywhere; }
+  .link { background: none; border: 0; padding: 8px 2px; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+
+  .home-btn {
+    display: block; width: 100%; text-align: left; margin: 0 0 12px;
+    padding: 16px 18px; background: var(--surface); border: 1.5px solid var(--line); border-radius: 8px; cursor: pointer;
+  }
+  .home-btn:hover { border-color: var(--muted); }
+  .home-btn b { display: block; font-size: 1.08rem; font-weight: 600; }
+  .home-btn span { display: block; margin-top: 2px; color: var(--muted); font-size: .92rem; }
+  .home-btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .home-btn.primary span { color: inherit; opacity: .85; }
+  .chk { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: .92rem; cursor: pointer; margin-top: 4px; }
+  .chk input { width: 18px; height: 18px; accent-color: var(--accent); }
+  .small { color: var(--muted); font-size: .88rem; margin: 18px 0 0; }
+
+  .timerbar {
+    position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 8px 0; margin-bottom: 12px; background: var(--bg); border-bottom: 1px solid var(--line);
+  }
+  .timer { font-variant-numeric: tabular-nums; font-weight: 600; font-size: 1.2rem; }
+  .timer.low { color: var(--bad); }
+  .timerbar .lbl { color: var(--muted); font-size: .9rem; }
+
+  .meta { display: flex; justify-content: space-between; gap: 12px; color: var(--muted); font-size: .9rem; margin-bottom: 8px; }
+  .bar { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; margin-bottom: 22px; }
+  .bar i { display: block; height: 100%; background: var(--accent); transition: width .25s ease; }
+
+  .q { font-family: var(--serif); font-size: 1.32rem; line-height: 1.5; margin: 0 0 6px; overflow-wrap: anywhere; hyphens: auto; }
+  .kind { margin: 0 0 16px; color: var(--muted); font-size: .92rem; }
+
+  .opts { display: flex; flex-direction: column; gap: 10px; }
+  .opt {
+    display: flex; align-items: flex-start; gap: 12px; width: 100%; text-align: left;
+    padding: 13px 14px; min-height: 52px;
+    background: var(--surface); border: 1.5px solid var(--line); border-radius: 8px; cursor: pointer;
+    transition: border-color .12s ease, background-color .12s ease;
+  }
+  div.opt { cursor: default; }
+  button.opt:hover { border-color: var(--muted); }
+  .opt .lt { flex: none; min-width: 1.3em; font-weight: 600; color: var(--muted); }
+  .opt .ot { flex: 1; overflow-wrap: anywhere; }
+  .opt .tag { flex: none; font-size: .82rem; font-weight: 500; padding-top: 2px; }
+  .mk { flex: none; width: 22px; height: 22px; margin-top: 1px; border: 2px solid var(--muted); background: var(--surface); display: grid; place-items: center; }
+  .mk.single { border-radius: 50%; }
+  .mk.multi { border-radius: 5px; }
+  .opt[aria-checked="true"] { border-color: var(--accent); }
+  .opt[aria-checked="true"] .mk { border-color: var(--accent); background: var(--accent); }
+  .opt[aria-checked="true"] .mk.single::after { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent-ink); }
+  .opt[aria-checked="true"] .mk.multi::after { content: ""; width: 6px; height: 11px; border: solid var(--accent-ink); border-width: 0 2.5px 2.5px 0; transform: translateY(-1px) rotate(45deg); }
+
+  .opt.ok { border-color: var(--ok); background: var(--ok-bg); }
+  .opt.ok .mk { border-color: var(--ok); background: var(--ok); }
+  .opt.ok .tag { color: var(--ok); }
+  .opt.bad { border-color: var(--bad); background: var(--bad-bg); }
+  .opt.bad .mk { border-color: var(--bad); background: var(--bad); }
+  .opt.bad .tag { color: var(--bad); }
+  .opt.miss { border-color: var(--ok); border-style: dashed; }
+  .opt.miss .mk { border-color: var(--ok); }
+  .opt.miss .tag { color: var(--ok); }
+  .locked button.opt { cursor: default; }
+  .locked button.opt:hover { border-color: inherit; }
+
+  .verdict { margin-top: 18px; padding: 12px 14px 12px 16px; border-left: 4px solid var(--line); background: var(--surface); border-radius: 0 8px 8px 0; scroll-margin-bottom: 96px; }
+  .verdict.ok { border-left-color: var(--ok); }
+  .verdict.bad { border-left-color: var(--bad); }
+  .verdict .vh { margin: 0 0 6px; font-weight: 600; font-size: 1.05rem; }
+  .verdict.ok .vh { color: var(--ok); }
+  .verdict.bad .vh { color: var(--bad); }
+  .verdict .vl { margin: 0 0 2px; color: var(--muted); font-size: .9rem; }
+  .verdict ul { margin: 0; padding-left: 20px; list-style: none; }
+  .verdict li { overflow-wrap: anywhere; }
+  .verdict li b { font-weight: 600; margin-right: 6px; }
+
+  .actions {
+    position: sticky; bottom: 0; z-index: 2;
+    display: flex; flex-wrap: wrap; gap: 10px;
+    margin-top: 20px; padding: 12px 0 calc(12px + env(safe-area-inset-bottom, 0px));
+    background: var(--bg); border-top: 1px solid var(--line);
+  }
+  .btn {
+    min-height: 46px; padding: 10px 20px; border-radius: 8px; cursor: pointer;
+    background: var(--surface); border: 1.5px solid var(--line);
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+  .btn:hover { border-color: var(--muted); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 500; }
+  .btn:disabled { opacity: .4; cursor: not-allowed; }
+  .actions .primary { flex: 1 1 160px; }
+
+  .hint { color: var(--muted); font-size: .84rem; margin: 6px 0 0; }
+  @media (hover: none) { .hint { display: none; } }
+
+  .nav { display: grid; grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); gap: 6px; margin: 16px 0 4px; }
+  .nav button { min-height: 40px; padding: 0; border: 1.5px solid var(--line); background: var(--surface); border-radius: 6px; cursor: pointer; font-variant-numeric: tabular-nums; }
+  .nav button.done { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .nav button.cur { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .navlbl { color: var(--muted); font-size: .86rem; margin: 18px 0 0; }
+
+  .confirm { margin-top: 16px; padding: 12px 14px 12px 16px; border-left: 4px solid var(--bad); background: var(--surface); border-radius: 0 8px 8px 0; }
+  .confirm p { margin: 0 0 10px; }
+  .confirm .row { margin-top: 0; }
+
+  .done h2 { font-family: var(--serif); font-weight: 400; font-size: 1.7rem; line-height: 1.3; margin: 8px 0 6px; }
+  .done .sub { margin: 0 0 6px; color: var(--muted); }
+  .done h3 { font-size: 1rem; margin: 26px 0 8px; }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+
+  .rv { border-top: 1px solid var(--line); }
+  .rv:last-child { border-bottom: 1px solid var(--line); }
+  .rv summary { list-style: none; cursor: pointer; padding: 12px 2px; display: flex; gap: 10px; align-items: baseline; }
+  .rv summary::-webkit-details-marker { display: none; }
+  .rv .st { flex: none; font-size: .82rem; font-weight: 600; min-width: 5.2em; }
+  .rv .st.ok { color: var(--ok); }
+  .rv .st.bad { color: var(--bad); }
+  .rv .st.skip { color: var(--muted); }
+  .rv .sq { flex: 1; overflow-wrap: anywhere; }
+  .rv .body { padding: 4px 2px 16px; }
+  .rv .body .q { font-size: 1.1rem; }
+
+  @media (max-width: 480px) {
+    .q { font-size: 1.2rem; }
+    .actions .btn { flex: 1 1 100%; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .opt, .bar i { transition: none; }
+  }
+</style>
+</head>
+<body>
+<div class="app" id="app"></div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ---------- Данные теста (загружаются с сервера) ---------- */
+  var DATA_URL = 'questions.json'; // путь/URL, по которому сервер отдаёт приватный JSON с вопросами (например, через свой authenticated-роут)
+  var DATA = null;
+
+  var EXAM_SIZE = 30;
+  var EXAM_MS = 2 * 60 * 60 * 1000;
+  var KEY_EXAM = 'ckz:exam2';
+  var KEY_OPTS = 'ckz:opts2';
+
+  /* ---------- Хранилище ---------- */
+  var mem = {};
+  var store = {
+    get: function (k, d) {
+      try { var v = localStorage.getItem(k); return v === null ? d : v; }
+      catch (e) { return (k in mem) ? mem[k] : d; }
+    },
+    set: function (k, v) {
+      try { localStorage.setItem(k, v); } catch (e) { mem[k] = v; }
+    },
+    del: function (k) {
+      try { localStorage.removeItem(k); } catch (e) { delete mem[k]; }
+    }
+  };
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function shuffle(a) {
+    a = a.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+  function norm(s) { return String(s).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ''); }
+  function fmt(ms) {
+    if (ms < 0) ms = 0;
+    var s = Math.floor(ms / 1000);
+    var h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60;
+    return h + ':' + (m < 10 ? '0' : '') + m + ':' + (sec < 10 ? '0' : '') + sec;
+  }
+  function fmtShort(ms) {
+    var s = Math.round(ms / 1000), m = Math.floor(s / 60), sec = s % 60;
+    return m + ' мин ' + (sec < 10 ? '0' : '') + sec + ' с';
+  }
+
+  /* ---------- Подготовка вопросов ---------- */
+  var bank, byId, groups, uniqueIds;
+  function prepareBank() {
+    bank = DATA.questions.map(function (raw) {
+      var okSet = {};
+      raw.correct.forEach(function (c) { okSet[c] = true; });
+      return {
+        id: raw.id,
+        q: raw.question,
+        opts: Object.keys(raw.options).sort().map(function (l) { return { l: l, t: raw.options[l], ok: !!okSet[l] }; })
+      };
+    });
+    byId = {};
+    bank.forEach(function (q) { byId[q.id] = q; });
+
+    /* Одинаковые вопросы (текст и набор вариантов), которые в книге повторяются, считаем одним.
+       Из группы берётся вопрос с наименьшим номером. */
+    groups = {};
+    bank.forEach(function (q) {
+      var key = norm(q.q) + '|' + q.opts.map(function (o) { return norm(o.t); }).sort().join('|');
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(q.id);
+    });
+    uniqueIds = Object.keys(groups).map(function (k) { return Math.min.apply(null, groups[k]); });
+  }
+
+  var settings = { shuffle: false };
+  try { settings = Object.assign(settings, JSON.parse(store.get(KEY_OPTS, '{}'))); } catch (e) {}
+  function saveSettings() { store.set(KEY_OPTS, JSON.stringify(settings)); }
+
+  function isMulti(q) { return q.opts.filter(function (o) { return o.ok; }).length > 1; }
+  function correctLetters(q) { return q.opts.filter(function (o) { return o.ok; }).map(function (o) { return o.l; }); }
+  function sameSet(a, b) {
+    if (a.length !== b.length) return false;
+    return a.every(function (x) { return b.indexOf(x) >= 0; });
+  }
+
+  /* ---------- Состояние ---------- */
+  var S = { screen: 'home' };
+  var T = null;  // тренировка
+  var E = null;  // экзамен
+  var timerHandle = null;
+
+  /* ---------- Тренировка ---------- */
+  function startTrain() {
+    T = { deck: shuffle(uniqueIds), i: 0, sel: [], checked: false, lastOk: false, gaveUp: false,
+          correct: 0, answered: 0, order: [], letters: true, focusL: null };
+    prepTrainQuestion();
+    S.screen = 'train';
+    render();
+    window.scrollTo(0, 0);
+  }
+  function trainQ() { return T && byId[T.deck[T.i]]; }
+  function prepTrainQuestion() {
+    T.sel = []; T.checked = false; T.lastOk = false; T.gaveUp = false; T.focusL = null;
+    T.letters = !settings.shuffle;
+    var q = trainQ();
+    var idx = q.opts.map(function (_, k) { return k; });
+    T.order = settings.shuffle ? shuffle(idx) : idx;
+  }
+  function trainToggle(l) {
+    if (T.checked) return;
+    var q = trainQ();
+    var pos = T.sel.indexOf(l);
+    if (isMulti(q)) { if (pos >= 0) T.sel.splice(pos, 1); else T.sel.push(l); }
+    else T.sel = [l];
+    T.focusL = l;
+    render();
+  }
+  function trainCheck(giveUp) {
+    var q = trainQ(); if (!q || T.checked) return;
+    if (giveUp) T.sel = [];
+    var ok = !giveUp && sameSet(T.sel, correctLetters(q));
+    T.checked = true; T.lastOk = ok; T.gaveUp = !!giveUp; T.answered++;
+    if (ok) T.correct++;
+    render();
+  }
+  function trainNext() {
+    T.i++;
+    if (T.i >= T.deck.length) { goHome(); return; }
+    prepTrainQuestion();
+    render();
+    window.scrollTo(0, 0);
+  }
+
+  /* ---------- Экзамен ---------- */
+  function saveExam() {
+    if (!E || E.finished) return;
+    store.set(KEY_EXAM, JSON.stringify({ ids: E.ids, ans: E.ans, idx: E.idx, startedAt: E.startedAt, endsAt: E.endsAt }));
+  }
+  function loadSavedExam() {
+    try {
+      var s = JSON.parse(store.get(KEY_EXAM, 'null'));
+      if (s && s.ids && s.ids.length === EXAM_SIZE && s.endsAt && s.ids.every(function (id) { return byId[id]; })) return s;
+    } catch (e) {}
+    return null;
+  }
+  function startExam() {
+    var ids = shuffle(uniqueIds).slice(0, EXAM_SIZE);
+    var now = Date.now();
+    E = { ids: ids, ans: {}, idx: 0, startedAt: now, endsAt: now + EXAM_MS, finished: false, confirm: false, res: null };
+    saveExam();
+    S.screen = 'exam';
+    startTimer();
+    render();
+    window.scrollTo(0, 0);
+  }
+  function resumeExam() {
+    var s = loadSavedExam(); if (!s) return;
+    E = { ids: s.ids, ans: s.ans || {}, idx: s.idx || 0, startedAt: s.startedAt, endsAt: s.endsAt, finished: false, confirm: false, res: null };
+    if (Date.now() >= E.endsAt) { finishExam(true); return; }
+    S.screen = 'exam';
+    startTimer();
+    render();
+  }
+  function examQ() { return byId[E.ids[E.idx]]; }
+  function examToggle(l) {
+    if (E.finished) return;
+    var q = examQ();
+    var cur = (E.ans[q.id] || []).slice();
+    var pos = cur.indexOf(l);
+    if (isMulti(q)) { if (pos >= 0) cur.splice(pos, 1); else cur.push(l); }
+    else cur = [l];
+    if (cur.length) E.ans[q.id] = cur; else delete E.ans[q.id];
+    E.focusL = l;
+    saveExam();
+    render();
+  }
+  function examGo(i) {
+    if (i < 0 || i >= E.ids.length) return;
+    E.idx = i; E.confirm = false; E.focusL = null;
+    saveExam();
+    render();
+    window.scrollTo(0, 0);
+  }
+  function unanswered() { return E.ids.filter(function (id) { return !(E.ans[id] && E.ans[id].length); }).length; }
+  function finishExam(byTime) {
+    stopTimer();
+    var now = Math.min(Date.now(), E.endsAt);
+    var items = E.ids.map(function (id) {
+      var q = byId[id], chosen = E.ans[id] || [];
+      var st = !chosen.length ? 'skip' : (sameSet(chosen, correctLetters(q)) ? 'ok' : 'bad');
+      return { id: id, chosen: chosen, st: st };
+    });
+    var right = items.filter(function (x) { return x.st === 'ok'; }).length;
+    E.finished = true;
+    E.res = { items: items, right: right, spent: now - E.startedAt, byTime: !!byTime };
+    store.del(KEY_EXAM);
+    S.screen = 'result';
+    render();
+    window.scrollTo(0, 0);
+  }
+  function startTimer() {
+    stopTimer();
+    timerHandle = setInterval(tick, 1000);
+  }
+  function stopTimer() { if (timerHandle) { clearInterval(timerHandle); timerHandle = null; } }
+  function tick() {
+    if (!E || E.finished || S.screen !== 'exam') return;
+    var left = E.endsAt - Date.now();
+    if (left <= 0) { finishExam(true); return; }
+    var el = document.getElementById('timer');
+    if (el) {
+      el.textContent = fmt(left);
+      if (left <= 10 * 60 * 1000) el.classList.add('low'); else el.classList.remove('low');
+    }
+  }
+  function goHome() {
+    stopTimer();
+    T = null;
+    if (E && E.finished) E = null;
+    S.screen = 'home';
+    render();
+    window.scrollTo(0, 0);
+  }
+
+  /* ---------- Отрисовка ---------- */
+  var $app = document.getElementById('app');
+
+  function head() {
+    return '<header class="top"><h1>Тренажёр билетов</h1><p class="src" lang="pl">' + esc(DATA.source) + '</p></header>';
+  }
+
+  function optionsHTML(q, order, selected, mode, showLetters) {
+    // mode: 'active' | 'locked' (проверено) | 'review'
+    var multi = isMulti(q);
+    return order.map(function (k) {
+      var o = q.opts[k], sel = selected.indexOf(o.l) >= 0, cls = '', tag = '';
+      if (mode !== 'active') {
+        if (sel && o.ok) { cls = 'ok'; tag = 'верно'; }
+        else if (sel && !o.ok) { cls = 'bad'; tag = 'неверно'; }
+        else if (!sel && o.ok) { cls = 'miss'; tag = 'нужно выбрать'; }
+      }
+      var inner = '<span class="mk ' + (multi ? 'multi' : 'single') + '"></span>' +
+        (showLetters ? '<span class="lt">' + esc(o.l) + '</span>' : '') +
+        '<span class="ot" lang="pl">' + esc(o.t) + '</span>' +
+        (tag ? '<span class="tag">' + tag + '</span>' : '');
+      if (mode === 'review') {
+        return '<div class="opt ' + cls + '" aria-checked="' + sel + '">' + inner + '</div>';
+      }
+      return '<button type="button" class="opt ' + cls + '" role="' + (multi ? 'checkbox' : 'radio') + '" aria-checked="' + sel + '" data-act="toggle" data-l="' + o.l + '">' + inner + '</button>';
+    }).join('');
+  }
+
+  function renderHome() {
+    var saved = loadSavedExam();
+    var resume = '';
+    if (saved) {
+      var left = saved.endsAt - Date.now();
+      var answered = Object.keys(saved.ans || {}).length;
+      resume = '<button type="button" class="home-btn primary" data-act="resume"><b>Продолжить экзамен</b><span>' +
+        (left > 0 ? 'Осталось ' + fmt(left) + ', отвечено ' + answered + ' из ' + EXAM_SIZE : 'Время вышло — показать результат') + '</span></button>';
+    }
+    return head() +
+      resume +
+      '<button type="button" class="home-btn' + (saved ? '' : ' primary') + '" data-act="exam"><b>' + (saved ? 'Новый экзамен' : 'Экзамен') + ': ' + EXAM_SIZE + ' билетов за 2 часа</b><span>' + EXAM_SIZE + ' случайных вопросов, таймер, ответы и разбор — в конце' + (saved ? '. Текущий экзамен будет сброшен' : '') + '</span></button>' +
+      '<button type="button" class="home-btn" data-act="train"><b>Тренировка</b><span>Случайные вопросы из всех билетов, ответ проверяется сразу</span></button>' +
+      '<label class="chk"><input type="checkbox" id="shuf"' + (settings.shuffle ? ' checked' : '') + '> Перемешивать варианты в тренировке</label>' +
+      '<p class="small">Всего вопросов: ' + uniqueIds.length + ' (одинаковые вопросы, повторяющиеся в книге, считаются один раз). Верным считается ответ, в котором выбраны все правильные варианты и ни одного лишнего.</p>';
+  }
+
+  function renderTrain() {
+    var q = trainQ();
+    var multi = isMulti(q);
+    var total = T.deck.length;
+    var pct = ((T.i + (T.checked ? 1 : 0)) / total) * 100;
+    var opts = optionsHTML(q, T.order, T.sel, T.checked ? 'locked' : 'active', T.letters);
+    var verdict = '';
+    if (T.checked) {
+      var right = q.opts.filter(function (o) { return o.ok; });
+      verdict = '<div class="verdict ' + (T.lastOk ? 'ok' : 'bad') + '" role="status">' +
+        '<p class="vh">' + (T.lastOk ? 'Верно' : (T.gaveUp ? 'Ответ показан' : 'Неверно')) + '</p>' +
+        '<p class="vl">' + (right.length > 1 ? 'Правильные ответы:' : 'Правильный ответ:') + '</p>' +
+        '<ul lang="pl">' + right.map(function (o) { return '<li>' + (T.letters ? '<b>' + esc(o.l) + '</b>' : '') + esc(o.t) + '</li>'; }).join('') + '</ul></div>';
+    }
+    var actions = T.checked
+      ? '<button type="button" class="btn primary" id="nextBtn" data-act="tnext">Дальше</button><button type="button" class="btn" data-act="home">Закончить</button>'
+      : '<button type="button" class="btn primary" data-act="tcheck"' + (T.sel.length ? '' : ' disabled') + '>Проверить ответ</button>' +
+        '<button type="button" class="btn" data-act="tgiveup">Показать ответ</button>';
+    return head() +
+      '<div class="meta"><span>Тренировка, вопрос ' + (T.i + 1) + ' (№ ' + q.id + ' в тесте)</span><span>Верно ' + T.correct + ' из ' + T.answered + '</span></div>' +
+      '<div class="bar"><i style="width:' + pct + '%"></i></div>' +
+      '<h2 class="q" lang="pl">' + esc(q.q) + '</h2>' +
+      '<p class="kind">' + (multi ? 'Выберите все правильные варианты' : 'Выберите один вариант') + '</p>' +
+      '<div class="opts' + (T.checked ? ' locked' : '') + '" role="' + (multi ? 'group' : 'radiogroup') + '">' + opts + '</div>' +
+      verdict +
+      '<div class="actions">' + actions + '</div>' +
+      (T.checked ? '' : '<p class="hint">Клавиши 1–9 выбирают варианты по порядку, Enter проверяет ответ.</p>');
+  }
+
+  function renderExam() {
+    var q = examQ();
+    var multi = isMulti(q);
+    var left = E.endsAt - Date.now();
+    var sel = E.ans[q.id] || [];
+    var order = q.opts.map(function (_, k) { return k; });
+    var nav = E.ids.map(function (id, i) {
+      var cls = (E.ans[id] && E.ans[id].length ? 'done' : '') + (i === E.idx ? ' cur' : '');
+      return '<button type="button" class="' + cls + '" data-act="go" data-i="' + i + '" aria-label="Вопрос ' + (i + 1) + '">' + (i + 1) + '</button>';
+    }).join('');
+    var un = unanswered();
+    var confirm = E.confirm
+      ? '<div class="confirm" role="alert"><p>' + (un ? 'Без ответа осталось вопросов: ' + un + '. Завершить экзамен?' : 'Завершить экзамен и посмотреть результат?') + '</p>' +
+        '<div class="row"><button type="button" class="btn primary" data-act="finish-yes">Да, завершить</button><button type="button" class="btn" data-act="finish-no">Продолжить</button></div></div>'
+      : '';
+    var last = E.idx === E.ids.length - 1;
+    return head() +
+      '<div class="timerbar"><span class="lbl">Осталось</span><span class="timer' + (left <= 10 * 60 * 1000 ? ' low' : '') + '" id="timer">' + fmt(left) + '</span></div>' +
+      '<div class="meta"><span>Вопрос ' + (E.idx + 1) + ' из ' + E.ids.length + '</span><span>Отвечено ' + (E.ids.length - un) + ' из ' + E.ids.length + '</span></div>' +
+      '<h2 class="q" lang="pl">' + esc(q.q) + '</h2>' +
+      '<p class="kind">' + (multi ? 'Выберите все правильные варианты' : 'Выберите один вариант') + '</p>' +
+      '<div class="opts" role="' + (multi ? 'group' : 'radiogroup') + '">' + optionsHTML(q, order, sel, 'active', true) + '</div>' +
+      '<p class="navlbl">Вопросы (закрашены — с ответом)</p><div class="nav">' + nav + '</div>' +
+      confirm +
+      '<div class="actions">' +
+      '<button type="button" class="btn" data-act="prev"' + (E.idx === 0 ? ' disabled' : '') + '>Назад</button>' +
+      (last ? '' : '<button type="button" class="btn primary" data-act="next">Дальше</button>') +
+      '<button type="button" class="btn' + (last ? ' primary' : '') + '" data-act="finish">Завершить экзамен</button>' +
+      '</div>';
+  }
+
+  function renderResult() {
+    var r = E.res;
+    var pct = Math.round((r.right / EXAM_SIZE) * 100);
+    var order = r.items.slice().sort(function (a, b) {
+      var w = { bad: 0, skip: 1, ok: 2 };
+      return w[a.st] - w[b.st];
+    });
+    var label = { ok: 'Верно', bad: 'Неверно', skip: 'Нет ответа' };
+    var list = order.map(function (it) {
+      var q = byId[it.id];
+      var pos = E.ids.indexOf(it.id) + 1;
+      var idxs = q.opts.map(function (_, k) { return k; });
+      return '<details class="rv"><summary><span class="st ' + it.st + '">' + label[it.st] + '</span><span class="sq" lang="pl">' + pos + '. ' + esc(q.q) + '</span></summary>' +
+        '<div class="body"><h4 class="q" lang="pl">' + esc(q.q) + '</h4><div class="opts">' + optionsHTML(q, idxs, it.chosen, 'review', true) + '</div></div></details>';
+    }).join('');
+    return head() +
+      '<section class="done">' +
+      '<h2>Верно ' + r.right + ' из ' + EXAM_SIZE + '</h2>' +
+      '<p class="sub">' + pct + '% правильных ответов. ' + (r.byTime ? 'Время вышло.' : 'Затрачено ' + fmtShort(r.spent) + ' из 2 часов.') + '</p>' +
+      '<div class="row"><button type="button" class="btn primary" data-act="exam">Новый экзамен</button><button type="button" class="btn" data-act="home">На главную</button></div>' +
+      '<h3>Разбор (сначала ошибки и пропуски)</h3>' + list +
+      '</section>';
+  }
+
+  function render() {
+    var html;
+    if (S.screen === 'train' && T) html = renderTrain();
+    else if (S.screen === 'exam' && E) html = renderExam();
+    else if (S.screen === 'result' && E && E.res) html = renderResult();
+    else { S.screen = 'home'; html = renderHome(); }
+    $app.innerHTML = html;
+    if (S.screen === 'train' && T) {
+      if (T.checked) { var n = document.getElementById('nextBtn'); if (n) n.focus({ preventScroll: true }); var v = document.querySelector('.verdict'); if (v && v.scrollIntoView) v.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
+      else if (T.focusL) { var b = $app.querySelector('[data-l="' + T.focusL + '"]'); if (b) b.focus({ preventScroll: true }); }
+    } else if (S.screen === 'exam' && E && E.focusL) {
+      var b2 = $app.querySelector('[data-l="' + E.focusL + '"]'); if (b2) b2.focus({ preventScroll: true });
+    }
+  }
+
+  /* ---------- События ---------- */
+  $app.addEventListener('click', function (e) {
+    var el = e.target.closest('[data-act]');
+    if (!el || el.disabled) return;
+    var act = el.getAttribute('data-act');
+    if (act === 'train') startTrain();
+    else if (act === 'exam') startExam();
+    else if (act === 'resume') resumeExam();
+    else if (act === 'home') goHome();
+    else if (act === 'toggle') { if (S.screen === 'train') trainToggle(el.getAttribute('data-l')); else if (S.screen === 'exam') examToggle(el.getAttribute('data-l')); }
+    else if (act === 'tcheck') trainCheck(false);
+    else if (act === 'tgiveup') trainCheck(true);
+    else if (act === 'tnext') trainNext();
+    else if (act === 'go') examGo(Number(el.getAttribute('data-i')));
+    else if (act === 'prev') examGo(E.idx - 1);
+    else if (act === 'next') examGo(E.idx + 1);
+    else if (act === 'finish') { E.confirm = true; render(); var c = document.querySelector('.confirm'); if (c && c.scrollIntoView) c.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
+    else if (act === 'finish-no') { E.confirm = false; render(); }
+    else if (act === 'finish-yes') finishExam(false);
+  });
+
+  $app.addEventListener('change', function (e) {
+    if (e.target.id === 'shuf') { settings.shuffle = e.target.checked; saveSettings(); }
+  });
+
+  document.addEventListener('keydown', function (e) {
+    var t = e.target, tag = t.tagName;
+    if (tag === 'TEXTAREA' || tag === 'INPUT' || tag === 'SELECT') return;
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    if (S.screen === 'train' && T) {
+      var q = trainQ();
+      if (/^[1-9]$/.test(e.key) && !T.checked) {
+        var k = T.order[Number(e.key) - 1];
+        if (k !== undefined) { e.preventDefault(); trainToggle(q.opts[k].l); }
+      } else if (e.key === 'Enter' && (tag === 'BODY' || t.classList.contains('opt'))) {
+        e.preventDefault();
+        if (T.checked) trainNext(); else if (T.sel.length) trainCheck(false);
+      }
+    } else if (S.screen === 'exam' && E) {
+      var q2 = examQ();
+      if (/^[1-9]$/.test(e.key)) {
+        var o = q2.opts[Number(e.key) - 1];
+        if (o) { e.preventDefault(); examToggle(o.l); }
+      } else if (e.key === 'ArrowRight') { e.preventDefault(); examGo(E.idx + 1); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); examGo(E.idx - 1); }
+    }
+  });
+
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) tick(); });
+
+  /* ---------- Старт ---------- */
+  function boot() {
+    var el = document.getElementById('app');
+    el.innerHTML = '<p style="padding:40px 16px;color:var(--muted)">Загрузка вопросов…</p>';
+    fetch(DATA_URL, { credentials: 'same-origin' }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (data) {
+      DATA = data;
+      prepareBank();
+      render();
+    }).catch(function (err) {
+      el.innerHTML = '<p style="padding:40px 16px;color:var(--bad)">Не удалось загрузить вопросы (' +
+        esc(String(err && err.message || err)) +
+        '). Проверьте, что файл с данными доступен по пути: ' + esc(DATA_URL) + '</p>';
+    });
+  }
+  boot();
+})();
+</script>
+</body>
+</html>
