@@ -100,6 +100,19 @@
   .bar { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; margin-bottom: 22px; }
   .bar i { display: block; height: 100%; background: var(--accent); transition: width .25s ease; }
 
+  .topicchart { margin-top: 20px; }
+  .tcrow { display: flex; align-items: center; gap: 10px; margin: 0 0 10px; }
+  .tclabel { flex: none; width: 1.4em; font-weight: 600; color: var(--muted); }
+  .tcbar { flex: 1; height: 14px; border-radius: 4px; overflow: hidden; display: flex; background: var(--line); }
+  .tcbar .ok { background: var(--ok); height: 100%; }
+  .tcbar .bad { background: var(--bad); height: 100%; }
+  .tcnum { flex: none; font-variant-numeric: tabular-nums; font-size: .86rem; color: var(--muted); min-width: 3.6em; text-align: right; }
+  .tclegend { display: flex; gap: 16px; margin: 2px 0 14px; color: var(--muted); font-size: .86rem; }
+  .tclegend span { display: inline-flex; align-items: center; gap: 6px; }
+  .tclegend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; }
+  .tclegend .ok { background: var(--ok); }
+  .tclegend .bad { background: var(--bad); }
+
   .q { font-family: var(--serif); font-size: 1.32rem; line-height: 1.5; margin: 0 0 6px; overflow-wrap: anywhere; hyphens: auto; }
   .kind { margin: 0 0 16px; color: var(--muted); font-size: .92rem; }
 
@@ -261,10 +274,12 @@
 
   /* ---------- Подготовка вопросов ---------- */
   var bank, byId, groups, uniqueIds, uniqueByTopic;
+  var topicNames = {};
   function prepareBank() {
     bank = DATA.questions.map(function (raw) {
       var okSet = {};
       raw.correct.forEach(function (c) { okSet[c] = true; });
+      if (raw.topic && raw.topic.code && !topicNames[raw.topic.code]) topicNames[raw.topic.code] = raw.topic.name;
       return {
         id: raw.id,
         q: raw.question,
@@ -428,8 +443,18 @@
       return { id: id, chosen: chosen, st: st };
     });
     var right = items.filter(function (x) { return x.st === 'ok'; }).length;
+
+    /* Разбивка правильных/неправильных по тематическим группам (A-H). */
+    var byTopic = {};
+    items.forEach(function (it) {
+      var q = byId[it.id], code = q.topic || '?';
+      if (!byTopic[code]) byTopic[code] = { code: code, name: topicNames[code] || code, ok: 0, bad: 0 };
+      if (it.st === 'ok') byTopic[code].ok++; else byTopic[code].bad++;
+    });
+    var topicStats = Object.keys(byTopic).sort().map(function (k) { return byTopic[k]; });
+
     E.finished = true;
-    E.res = { items: items, right: right, spent: now - E.startedAt, byTime: !!byTime };
+    E.res = { items: items, right: right, spent: now - E.startedAt, byTime: !!byTime, topicStats: topicStats };
     store.del(KEY_EXAM);
     S.screen = 'result';
     render();
@@ -579,12 +604,22 @@
       return '<details class="rv"><summary><span class="st ' + it.st + '">' + label[it.st] + '</span><span class="sq" lang="pl">' + pos + '. ' + esc(q.q) + '</span></summary>' +
         '<div class="body"><h4 class="q" lang="pl">' + esc(q.q) + '</h4><div class="opts">' + optionsHTML(q, idxs, it.chosen, 'review', true) + '</div></div></details>';
     }).join('');
+    var topicChart = (r.topicStats || []).map(function (t) {
+      var total = t.ok + t.bad;
+      var okPct = total ? Math.round((t.ok / total) * 100) : 0;
+      return '<div class="tcrow"><span class="tclabel">' + esc(t.code) + '</span>' +
+        '<span class="tcbar" title="' + esc(t.name) + '"><i class="ok" style="width:' + okPct + '%"></i><i class="bad" style="width:' + (100 - okPct) + '%"></i></span>' +
+        '<span class="tcnum">' + t.ok + ' / ' + total + '</span></div>';
+    }).join('');
     return head() +
       '<section class="done">' +
       '<h2>Верно ' + r.right + ' из ' + EXAM_SIZE + '</h2>' +
       '<p class="sub">' + pct + '% правильных ответов. ' + (r.byTime ? 'Время вышло.' : 'Затрачено ' + fmtShort(r.spent) + ' из 2 часов.') + '</p>' +
       '<div class="row"><button type="button" class="btn primary" data-act="exam">Новый экзамен</button><button type="button" class="btn" data-act="home">На главную</button></div>' +
       '<h3>Разбор (сначала ошибки и пропуски)</h3>' + list +
+      '<h3>Правильные/неправильные по темам</h3>' +
+      '<div class="tclegend"><span><i class="ok"></i>Верно</span><span><i class="bad"></i>Неверно</span></div>' +
+      '<div class="topicchart">' + topicChart + '</div>' +
       '</section>';
   }
 
