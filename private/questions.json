@@ -16,7 +16,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 2,
@@ -29,7 +33,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 3,
@@ -42,7 +50,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 4,
@@ -55,7 +67,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 5,
@@ -68,7 +84,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 6,
@@ -81,7 +101,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 7,
@@ -94,7 +118,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 8,
@@ -107,7 +135,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 9,
@@ -120,7 +152,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 10,
@@ -133,7 +169,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 11,
@@ -148,7 +188,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 12,
@@ -161,7 +205,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 13,
@@ -175,7 +223,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 14,
@@ -190,7 +242,11 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 15,
@@ -204,7 +260,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 16,
@@ -218,7 +278,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 17,
@@ -231,7 +295,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 18,
@@ -246,7 +314,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 19,
@@ -259,7 +331,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 20,
@@ -272,7 +348,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 21,
@@ -285,7 +365,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 22,
@@ -299,7 +383,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 23,
@@ -312,7 +400,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 24,
@@ -325,7 +417,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 25,
@@ -338,7 +434,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 26,
@@ -351,7 +451,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 27,
@@ -364,7 +468,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 28,
@@ -377,7 +485,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 29,
@@ -390,7 +502,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 30,
@@ -403,7 +519,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 31,
@@ -416,7 +536,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 32,
@@ -429,7 +553,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 33,
@@ -442,7 +570,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 34,
@@ -455,7 +587,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 35,
@@ -468,7 +604,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 36,
@@ -481,7 +621,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 37,
@@ -494,7 +638,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 38,
@@ -507,7 +655,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 39,
@@ -520,7 +672,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 40,
@@ -534,7 +690,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 41,
@@ -548,7 +708,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 42,
@@ -562,7 +726,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 43,
@@ -576,7 +744,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 44,
@@ -591,7 +763,11 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 45,
@@ -605,7 +781,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 46,
@@ -618,7 +798,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 47,
@@ -631,7 +815,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 48,
@@ -645,7 +833,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 49,
@@ -658,7 +850,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 50,
@@ -671,7 +867,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 51,
@@ -685,7 +885,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 52,
@@ -698,7 +902,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 53,
@@ -711,7 +919,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 54,
@@ -724,7 +936,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 55,
@@ -737,7 +953,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 56,
@@ -751,7 +971,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 57,
@@ -765,7 +989,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 58,
@@ -778,7 +1006,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 59,
@@ -792,7 +1024,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 60,
@@ -807,7 +1043,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 61,
@@ -821,7 +1061,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 62,
@@ -834,7 +1078,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 63,
@@ -848,7 +1096,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 64,
@@ -862,7 +1114,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 65,
@@ -876,7 +1132,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 66,
@@ -890,7 +1150,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 67,
@@ -903,7 +1167,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 68,
@@ -918,7 +1186,11 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 69,
@@ -931,7 +1203,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 70,
@@ -944,7 +1220,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 71,
@@ -958,7 +1238,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 72,
@@ -972,7 +1256,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 73,
@@ -986,7 +1274,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 74,
@@ -999,7 +1291,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 75,
@@ -1013,7 +1309,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 76,
@@ -1026,7 +1326,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 77,
@@ -1040,7 +1344,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 78,
@@ -1053,7 +1361,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 79,
@@ -1067,7 +1379,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 80,
@@ -1080,7 +1396,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 81,
@@ -1093,7 +1413,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 82,
@@ -1108,7 +1432,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 83,
@@ -1122,7 +1450,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 84,
@@ -1135,7 +1467,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 85,
@@ -1149,7 +1485,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 86,
@@ -1163,7 +1503,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 87,
@@ -1176,7 +1520,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 88,
@@ -1189,7 +1537,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 89,
@@ -1203,7 +1555,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 90,
@@ -1217,7 +1573,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 91,
@@ -1230,7 +1590,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 92,
@@ -1243,7 +1607,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 93,
@@ -1257,7 +1625,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 94,
@@ -1271,7 +1643,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 95,
@@ -1284,7 +1660,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 96,
@@ -1298,7 +1678,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 97,
@@ -1311,7 +1695,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 98,
@@ -1325,7 +1713,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 99,
@@ -1340,7 +1732,11 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 100,
@@ -1353,7 +1749,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 101,
@@ -1367,7 +1767,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 102,
@@ -1381,7 +1785,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 103,
@@ -1395,7 +1803,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 104,
@@ -1409,7 +1821,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 105,
@@ -1422,7 +1838,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 106,
@@ -1436,7 +1856,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 107,
@@ -1450,7 +1874,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 108,
@@ -1463,7 +1891,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 109,
@@ -1477,7 +1909,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 110,
@@ -1490,7 +1926,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 111,
@@ -1504,7 +1944,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 112,
@@ -1519,7 +1963,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 113,
@@ -1533,7 +1981,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 114,
@@ -1546,7 +1998,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 115,
@@ -1560,7 +2016,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 116,
@@ -1573,7 +2033,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 117,
@@ -1587,7 +2051,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 118,
@@ -1602,7 +2070,11 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 119,
@@ -1615,7 +2087,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 120,
@@ -1628,7 +2104,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 121,
@@ -1641,7 +2121,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 122,
@@ -1655,7 +2139,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 123,
@@ -1669,7 +2157,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 124,
@@ -1682,7 +2174,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 125,
@@ -1696,7 +2192,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 126,
@@ -1709,7 +2209,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 127,
@@ -1723,7 +2227,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 128,
@@ -1736,7 +2244,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 129,
@@ -1749,7 +2261,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 130,
@@ -1763,7 +2279,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 131,
@@ -1777,7 +2297,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 132,
@@ -1790,7 +2314,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 133,
@@ -1803,7 +2331,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 134,
@@ -1817,7 +2349,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 135,
@@ -1832,7 +2368,11 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 136,
@@ -1846,7 +2386,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 137,
@@ -1859,7 +2403,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 138,
@@ -1873,7 +2421,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 139,
@@ -1886,7 +2438,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 140,
@@ -1899,7 +2455,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 141,
@@ -1913,7 +2473,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 142,
@@ -1926,7 +2490,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 143,
@@ -1939,7 +2507,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 144,
@@ -1953,7 +2525,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 145,
@@ -1966,7 +2542,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 146,
@@ -1979,7 +2559,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 147,
@@ -1994,7 +2578,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 148,
@@ -2007,7 +2595,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 149,
@@ -2021,7 +2613,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 150,
@@ -2034,7 +2630,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 151,
@@ -2049,7 +2649,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 152,
@@ -2064,7 +2668,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 153,
@@ -2077,7 +2685,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 154,
@@ -2090,7 +2702,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 155,
@@ -2104,7 +2720,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 156,
@@ -2118,7 +2738,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 157,
@@ -2133,7 +2757,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 158,
@@ -2148,7 +2776,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 159,
@@ -2162,7 +2794,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 160,
@@ -2175,7 +2811,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 161,
@@ -2189,7 +2829,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 162,
@@ -2203,7 +2847,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 163,
@@ -2217,7 +2865,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 164,
@@ -2230,7 +2882,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 165,
@@ -2245,7 +2901,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 166,
@@ -2259,7 +2919,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 167,
@@ -2272,7 +2936,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 168,
@@ -2286,7 +2954,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 169,
@@ -2299,7 +2971,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 170,
@@ -2312,7 +2988,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 171,
@@ -2325,7 +3005,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 172,
@@ -2338,7 +3022,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 173,
@@ -2353,7 +3041,11 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 174,
@@ -2366,7 +3058,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 175,
@@ -2379,7 +3075,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 176,
@@ -2393,7 +3093,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 177,
@@ -2408,7 +3112,11 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 178,
@@ -2421,7 +3129,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 179,
@@ -2436,7 +3148,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 180,
@@ -2451,7 +3167,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 181,
@@ -2464,7 +3184,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 182,
@@ -2477,7 +3201,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 183,
@@ -2492,7 +3220,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 184,
@@ -2506,7 +3238,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 185,
@@ -2519,7 +3255,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 186,
@@ -2532,7 +3272,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 187,
@@ -2546,7 +3290,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 188,
@@ -2559,7 +3307,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 189,
@@ -2573,7 +3325,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 190,
@@ -2586,7 +3342,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 191,
@@ -2600,7 +3360,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 192,
@@ -2614,7 +3378,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 193,
@@ -2627,7 +3395,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 194,
@@ -2641,7 +3413,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 195,
@@ -2654,7 +3430,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 196,
@@ -2667,7 +3447,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 197,
@@ -2680,7 +3464,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 198,
@@ -2695,7 +3483,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 199,
@@ -2708,7 +3500,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 200,
@@ -2722,7 +3518,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 201,
@@ -2736,7 +3536,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 202,
@@ -2749,7 +3553,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 203,
@@ -2762,7 +3570,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 204,
@@ -2776,7 +3588,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 205,
@@ -2790,7 +3606,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 206,
@@ -2803,7 +3623,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 207,
@@ -2818,7 +3642,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 208,
@@ -2831,7 +3659,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 209,
@@ -2845,7 +3677,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 210,
@@ -2860,7 +3696,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 211,
@@ -2874,7 +3714,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 212,
@@ -2890,7 +3734,11 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 213,
@@ -2904,7 +3752,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 214,
@@ -2919,7 +3771,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 215,
@@ -2932,7 +3788,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 216,
@@ -2945,7 +3805,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 217,
@@ -2960,7 +3824,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 218,
@@ -2975,7 +3843,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 219,
@@ -2990,7 +3862,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 220,
@@ -3004,7 +3880,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 221,
@@ -3017,7 +3897,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 222,
@@ -3030,7 +3914,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 223,
@@ -3043,7 +3931,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 224,
@@ -3056,7 +3948,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 225,
@@ -3069,7 +3965,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 226,
@@ -3083,7 +3983,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 227,
@@ -3096,7 +4000,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 228,
@@ -3109,7 +4017,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 229,
@@ -3123,7 +4035,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 230,
@@ -3136,7 +4052,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 231,
@@ -3149,7 +4069,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 232,
@@ -3163,7 +4087,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 233,
@@ -3176,7 +4104,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 234,
@@ -3189,7 +4121,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 235,
@@ -3202,7 +4138,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 236,
@@ -3215,7 +4155,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 237,
@@ -3228,7 +4172,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 238,
@@ -3241,7 +4189,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 239,
@@ -3255,7 +4207,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 240,
@@ -3269,7 +4225,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 241,
@@ -3282,7 +4242,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 242,
@@ -3296,7 +4260,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 243,
@@ -3311,7 +4279,11 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 244,
@@ -3325,7 +4297,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 245,
@@ -3338,7 +4314,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 246,
@@ -3351,7 +4331,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 247,
@@ -3364,7 +4348,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 248,
@@ -3377,7 +4365,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 249,
@@ -3390,7 +4382,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 250,
@@ -3405,7 +4401,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 251,
@@ -3419,7 +4419,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 252,
@@ -3432,7 +4436,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 253,
@@ -3445,7 +4453,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 254,
@@ -3459,7 +4471,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 255,
@@ -3473,7 +4489,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 256,
@@ -3486,7 +4506,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 257,
@@ -3499,7 +4523,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 258,
@@ -3513,7 +4541,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 259,
@@ -3526,7 +4558,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 260,
@@ -3541,7 +4577,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 261,
@@ -3554,7 +4594,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 262,
@@ -3568,7 +4612,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 263,
@@ -3581,7 +4629,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 264,
@@ -3594,7 +4646,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 265,
@@ -3608,7 +4664,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 266,
@@ -3622,7 +4682,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 267,
@@ -3635,7 +4699,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 268,
@@ -3649,7 +4717,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 269,
@@ -3662,7 +4734,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 270,
@@ -3675,7 +4751,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 271,
@@ -3688,7 +4768,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 272,
@@ -3701,7 +4785,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 273,
@@ -3714,7 +4802,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 274,
@@ -3728,7 +4820,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 275,
@@ -3741,7 +4837,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 276,
@@ -3755,7 +4855,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 277,
@@ -3768,7 +4872,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 278,
@@ -3783,7 +4891,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 279,
@@ -3796,7 +4908,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 280,
@@ -3811,7 +4927,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 281,
@@ -3825,7 +4945,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 282,
@@ -3838,7 +4962,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 283,
@@ -3851,7 +4979,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 284,
@@ -3864,7 +4996,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 285,
@@ -3879,7 +5015,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 286,
@@ -3892,7 +5032,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 287,
@@ -3906,7 +5050,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 288,
@@ -3919,7 +5067,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 289,
@@ -3933,7 +5085,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 290,
@@ -3946,7 +5102,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 291,
@@ -3960,7 +5120,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 292,
@@ -3973,7 +5137,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 293,
@@ -3986,7 +5154,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 294,
@@ -4000,7 +5172,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 295,
@@ -4013,7 +5189,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 296,
@@ -4026,7 +5206,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 297,
@@ -4039,7 +5223,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 298,
@@ -4053,7 +5241,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 299,
@@ -4066,7 +5258,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 300,
@@ -4081,7 +5277,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 301,
@@ -4094,7 +5294,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 302,
@@ -4107,7 +5311,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 303,
@@ -4120,7 +5328,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 304,
@@ -4133,7 +5345,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 305,
@@ -4146,7 +5362,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 306,
@@ -4159,7 +5379,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 307,
@@ -4173,7 +5397,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 308,
@@ -4188,7 +5416,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 309,
@@ -4202,7 +5434,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 310,
@@ -4217,7 +5453,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 311,
@@ -4231,7 +5471,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 312,
@@ -4244,7 +5488,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 313,
@@ -4259,7 +5507,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 314,
@@ -4272,7 +5524,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 315,
@@ -4286,7 +5542,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 316,
@@ -4299,7 +5559,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 317,
@@ -4313,7 +5577,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 318,
@@ -4328,7 +5596,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 319,
@@ -4341,7 +5613,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 320,
@@ -4354,7 +5630,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 321,
@@ -4367,7 +5647,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 322,
@@ -4380,7 +5664,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 323,
@@ -4393,7 +5681,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 324,
@@ -4406,7 +5698,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 325,
@@ -4419,7 +5715,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 326,
@@ -4432,7 +5732,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 327,
@@ -4445,7 +5749,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 328,
@@ -4458,7 +5766,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 329,
@@ -4471,7 +5783,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 330,
@@ -4484,7 +5800,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 331,
@@ -4497,7 +5817,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 332,
@@ -4510,7 +5834,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 333,
@@ -4523,7 +5851,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 334,
@@ -4536,7 +5868,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 335,
@@ -4549,7 +5885,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 336,
@@ -4562,7 +5902,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 337,
@@ -4576,7 +5920,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 338,
@@ -4589,7 +5937,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 339,
@@ -4602,7 +5954,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 340,
@@ -4615,7 +5971,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 341,
@@ -4628,7 +5988,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 342,
@@ -4641,7 +6005,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 343,
@@ -4654,7 +6022,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 344,
@@ -4667,7 +6039,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 345,
@@ -4681,7 +6057,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 346,
@@ -4694,7 +6074,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 347,
@@ -4707,7 +6091,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 348,
@@ -4720,7 +6108,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 349,
@@ -4733,7 +6125,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 350,
@@ -4746,7 +6142,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 351,
@@ -4759,7 +6159,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 352,
@@ -4772,7 +6176,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 353,
@@ -4785,7 +6193,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 354,
@@ -4798,7 +6210,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 355,
@@ -4811,7 +6227,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 356,
@@ -4824,7 +6244,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 357,
@@ -4838,7 +6262,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 358,
@@ -4851,7 +6279,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 359,
@@ -4866,7 +6298,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 360,
@@ -4880,7 +6316,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 361,
@@ -4893,7 +6333,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 362,
@@ -4906,7 +6350,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 363,
@@ -4919,7 +6367,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 364,
@@ -4932,7 +6384,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 365,
@@ -4945,7 +6401,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 366,
@@ -4958,7 +6418,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 367,
@@ -4971,7 +6435,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 368,
@@ -4983,7 +6451,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 369,
@@ -4996,7 +6468,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 370,
@@ -5009,7 +6485,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 371,
@@ -5022,7 +6502,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 372,
@@ -5035,7 +6519,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 373,
@@ -5048,7 +6536,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 374,
@@ -5061,7 +6553,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 375,
@@ -5074,7 +6570,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 376,
@@ -5087,7 +6587,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 377,
@@ -5100,7 +6604,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 378,
@@ -5113,7 +6621,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 379,
@@ -5126,7 +6638,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 380,
@@ -5139,7 +6655,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 381,
@@ -5152,7 +6672,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 382,
@@ -5165,7 +6689,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 383,
@@ -5178,7 +6706,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 384,
@@ -5191,7 +6723,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 385,
@@ -5204,7 +6740,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 386,
@@ -5217,7 +6757,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 387,
@@ -5230,7 +6774,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 388,
@@ -5243,7 +6791,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 389,
@@ -5256,7 +6808,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 390,
@@ -5269,7 +6825,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 391,
@@ -5282,7 +6842,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 392,
@@ -5295,7 +6859,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 393,
@@ -5308,7 +6876,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 394,
@@ -5321,7 +6893,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 395,
@@ -5334,7 +6910,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 396,
@@ -5347,7 +6927,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 397,
@@ -5360,7 +6944,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 398,
@@ -5373,7 +6961,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 399,
@@ -5386,7 +6978,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 400,
@@ -5399,7 +6995,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 401,
@@ -5412,7 +7012,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 402,
@@ -5426,7 +7030,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 403,
@@ -5439,7 +7047,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 404,
@@ -5452,7 +7064,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 405,
@@ -5465,7 +7081,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 406,
@@ -5478,7 +7098,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 407,
@@ -5491,7 +7115,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 408,
@@ -5504,7 +7132,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 409,
@@ -5517,7 +7149,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 410,
@@ -5530,7 +7166,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 411,
@@ -5543,7 +7183,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 412,
@@ -5556,7 +7200,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 413,
@@ -5569,7 +7217,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 414,
@@ -5582,7 +7234,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 415,
@@ -5595,7 +7251,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 416,
@@ -5608,7 +7268,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 417,
@@ -5621,7 +7285,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 418,
@@ -5634,7 +7302,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 419,
@@ -5647,7 +7319,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 420,
@@ -5660,7 +7336,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 421,
@@ -5673,7 +7353,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 422,
@@ -5686,7 +7370,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 423,
@@ -5699,7 +7387,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 424,
@@ -5712,7 +7404,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 425,
@@ -5725,7 +7421,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 426,
@@ -5738,7 +7438,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 427,
@@ -5751,7 +7455,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 428,
@@ -5764,7 +7472,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 429,
@@ -5777,7 +7489,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 430,
@@ -5790,7 +7506,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 431,
@@ -5803,7 +7523,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 432,
@@ -5816,7 +7540,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 433,
@@ -5829,7 +7557,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 434,
@@ -5842,7 +7574,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 435,
@@ -5855,7 +7591,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 436,
@@ -5868,7 +7608,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 437,
@@ -5881,7 +7625,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 438,
@@ -5894,7 +7642,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 439,
@@ -5907,7 +7659,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 440,
@@ -5920,7 +7676,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 441,
@@ -5933,7 +7693,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 442,
@@ -5946,7 +7710,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 443,
@@ -5959,7 +7727,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 444,
@@ -5972,7 +7744,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 445,
@@ -5985,7 +7761,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 446,
@@ -5998,7 +7778,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 447,
@@ -6011,7 +7795,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 448,
@@ -6024,7 +7812,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 449,
@@ -6037,7 +7829,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 450,
@@ -6050,7 +7846,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 451,
@@ -6063,7 +7863,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 452,
@@ -6076,7 +7880,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 453,
@@ -6089,7 +7897,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 454,
@@ -6102,7 +7914,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 455,
@@ -6115,7 +7931,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 456,
@@ -6130,7 +7950,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 457,
@@ -6143,7 +7967,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 458,
@@ -6156,7 +7984,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 459,
@@ -6169,7 +8001,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 460,
@@ -6182,7 +8018,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 461,
@@ -6195,7 +8035,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 462,
@@ -6208,7 +8052,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 463,
@@ -6221,7 +8069,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 464,
@@ -6234,7 +8086,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 465,
@@ -6247,7 +8103,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 466,
@@ -6260,7 +8120,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 467,
@@ -6273,7 +8137,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 468,
@@ -6286,7 +8154,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 469,
@@ -6299,7 +8171,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 470,
@@ -6312,7 +8188,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 471,
@@ -6325,7 +8205,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 472,
@@ -6338,7 +8222,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 473,
@@ -6351,7 +8239,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 474,
@@ -6364,7 +8256,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 475,
@@ -6377,7 +8273,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 476,
@@ -6390,7 +8290,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 477,
@@ -6403,7 +8307,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 478,
@@ -6416,7 +8324,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 479,
@@ -6429,7 +8341,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 480,
@@ -6442,7 +8358,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 481,
@@ -6455,7 +8375,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 482,
@@ -6468,7 +8392,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 483,
@@ -6481,7 +8409,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 484,
@@ -6494,7 +8426,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 485,
@@ -6507,7 +8443,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 486,
@@ -6520,7 +8460,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 487,
@@ -6533,7 +8477,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 488,
@@ -6546,7 +8494,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 489,
@@ -6560,7 +8512,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 490,
@@ -6573,7 +8529,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 491,
@@ -6586,7 +8546,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 492,
@@ -6599,7 +8563,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 493,
@@ -6612,7 +8580,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 494,
@@ -6625,7 +8597,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 495,
@@ -6638,7 +8614,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 496,
@@ -6651,7 +8631,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 497,
@@ -6664,7 +8648,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 498,
@@ -6677,7 +8665,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 499,
@@ -6690,7 +8682,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 500,
@@ -6703,7 +8699,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 501,
@@ -6716,7 +8716,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 502,
@@ -6729,7 +8733,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 503,
@@ -6742,7 +8750,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 504,
@@ -6755,7 +8767,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 505,
@@ -6768,7 +8784,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 506,
@@ -6781,7 +8801,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 507,
@@ -6794,7 +8818,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 508,
@@ -6807,7 +8835,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 509,
@@ -6820,7 +8852,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 510,
@@ -6833,7 +8869,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 511,
@@ -6846,7 +8886,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 512,
@@ -6859,7 +8903,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 513,
@@ -6872,7 +8920,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 514,
@@ -6885,7 +8937,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 515,
@@ -6898,7 +8954,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 516,
@@ -6911,7 +8971,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 517,
@@ -6924,7 +8988,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 518,
@@ -6937,7 +9005,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 519,
@@ -6950,7 +9022,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 520,
@@ -6963,7 +9039,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 521,
@@ -6976,7 +9056,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 522,
@@ -6989,7 +9073,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 523,
@@ -7002,7 +9090,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 524,
@@ -7015,7 +9107,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 525,
@@ -7028,7 +9124,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 526,
@@ -7041,7 +9141,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 527,
@@ -7054,7 +9158,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 528,
@@ -7067,7 +9175,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 529,
@@ -7080,7 +9192,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 530,
@@ -7093,7 +9209,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 531,
@@ -7106,7 +9226,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 532,
@@ -7119,7 +9243,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 533,
@@ -7132,7 +9260,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 534,
@@ -7145,7 +9277,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 535,
@@ -7158,7 +9294,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 536,
@@ -7171,7 +9311,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 537,
@@ -7184,7 +9328,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 538,
@@ -7197,7 +9345,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 539,
@@ -7210,7 +9362,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 540,
@@ -7223,7 +9379,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 541,
@@ -7236,7 +9396,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 542,
@@ -7249,7 +9413,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 543,
@@ -7262,7 +9430,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 544,
@@ -7275,7 +9447,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 545,
@@ -7288,7 +9464,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 546,
@@ -7301,7 +9481,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 547,
@@ -7314,7 +9498,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 548,
@@ -7327,7 +9515,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 549,
@@ -7340,7 +9532,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 550,
@@ -7353,7 +9549,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 551,
@@ -7366,7 +9566,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 552,
@@ -7379,7 +9583,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 553,
@@ -7392,7 +9600,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 554,
@@ -7405,7 +9617,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 555,
@@ -7418,7 +9634,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 556,
@@ -7431,7 +9651,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 557,
@@ -7444,7 +9668,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 558,
@@ -7457,7 +9685,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 559,
@@ -7470,7 +9702,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 560,
@@ -7483,7 +9719,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 561,
@@ -7496,7 +9736,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 562,
@@ -7509,7 +9753,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 563,
@@ -7522,7 +9770,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 564,
@@ -7535,7 +9787,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 565,
@@ -7548,7 +9804,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 566,
@@ -7561,7 +9821,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 567,
@@ -7574,7 +9838,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 568,
@@ -7587,7 +9855,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 569,
@@ -7600,7 +9872,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 570,
@@ -7614,7 +9890,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 571,
@@ -7627,7 +9907,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 572,
@@ -7640,7 +9924,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 573,
@@ -7653,7 +9941,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 574,
@@ -7666,7 +9958,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 575,
@@ -7679,7 +9975,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 576,
@@ -7692,7 +9992,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 577,
@@ -7705,7 +10009,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 578,
@@ -7719,7 +10027,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 579,
@@ -7732,7 +10044,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 580,
@@ -7745,7 +10061,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 581,
@@ -7758,7 +10078,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 582,
@@ -7771,7 +10095,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 583,
@@ -7784,7 +10112,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 584,
@@ -7797,7 +10129,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 585,
@@ -7810,7 +10146,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 586,
@@ -7823,7 +10163,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 587,
@@ -7836,7 +10180,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 588,
@@ -7849,7 +10197,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 589,
@@ -7862,7 +10214,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 590,
@@ -7875,7 +10231,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 591,
@@ -7888,7 +10248,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 592,
@@ -7901,7 +10265,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 593,
@@ -7914,7 +10282,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 594,
@@ -7927,7 +10299,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 595,
@@ -7940,7 +10316,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 596,
@@ -7953,7 +10333,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 597,
@@ -7966,7 +10350,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 598,
@@ -7979,7 +10367,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 599,
@@ -7992,7 +10384,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 600,
@@ -8005,7 +10401,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 601,
@@ -8018,7 +10418,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 602,
@@ -8031,7 +10435,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 603,
@@ -8044,7 +10452,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 604,
@@ -8057,7 +10469,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 605,
@@ -8070,7 +10486,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 606,
@@ -8083,7 +10503,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 607,
@@ -8096,7 +10520,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 608,
@@ -8109,7 +10537,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 609,
@@ -8122,7 +10554,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 610,
@@ -8135,7 +10571,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 611,
@@ -8148,7 +10588,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 612,
@@ -8161,7 +10605,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 613,
@@ -8174,7 +10622,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 614,
@@ -8187,7 +10639,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 615,
@@ -8200,7 +10656,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 616,
@@ -8213,7 +10673,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 617,
@@ -8226,7 +10690,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 618,
@@ -8239,7 +10707,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 619,
@@ -8252,7 +10724,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 620,
@@ -8265,7 +10741,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 621,
@@ -8278,7 +10758,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 622,
@@ -8291,7 +10775,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 623,
@@ -8304,7 +10792,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 624,
@@ -8317,7 +10809,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 625,
@@ -8330,7 +10826,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 626,
@@ -8343,7 +10843,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 627,
@@ -8356,7 +10860,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 628,
@@ -8371,7 +10879,11 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 629,
@@ -8385,7 +10897,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 630,
@@ -8398,7 +10914,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 631,
@@ -8411,7 +10931,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 632,
@@ -8426,7 +10950,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 633,
@@ -8441,7 +10969,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 634,
@@ -8455,7 +10987,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 635,
@@ -8470,7 +11006,11 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 636,
@@ -8484,7 +11024,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 637,
@@ -8497,7 +11041,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 638,
@@ -8512,7 +11060,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 639,
@@ -8525,7 +11077,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 640,
@@ -8539,7 +11095,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 641,
@@ -8552,7 +11112,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 642,
@@ -8565,7 +11129,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 643,
@@ -8578,7 +11146,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 644,
@@ -8593,7 +11165,11 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 645,
@@ -8608,7 +11184,11 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 646,
@@ -8621,7 +11201,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 647,
@@ -8634,7 +11218,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 648,
@@ -8648,7 +11236,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 649,
@@ -8663,7 +11255,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 650,
@@ -8677,7 +11273,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 651,
@@ -8690,7 +11290,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 652,
@@ -8704,7 +11308,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 653,
@@ -8719,7 +11327,11 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 654,
@@ -8732,7 +11344,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 655,
@@ -8745,7 +11361,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 656,
@@ -8760,7 +11380,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 657,
@@ -8774,7 +11398,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 658,
@@ -8788,7 +11416,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 659,
@@ -8801,7 +11433,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 660,
@@ -8814,7 +11450,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 661,
@@ -8827,7 +11467,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 662,
@@ -8841,7 +11485,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 663,
@@ -8855,7 +11503,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 664,
@@ -8869,7 +11521,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 665,
@@ -8883,7 +11539,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 666,
@@ -8896,7 +11556,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 667,
@@ -8911,7 +11575,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 668,
@@ -8925,7 +11593,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 669,
@@ -8939,7 +11611,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 670,
@@ -8953,7 +11629,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 671,
@@ -8967,7 +11647,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 672,
@@ -8981,7 +11665,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 673,
@@ -8994,7 +11682,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 674,
@@ -9008,7 +11700,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 675,
@@ -9021,7 +11717,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 676,
@@ -9034,7 +11734,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 677,
@@ -9048,7 +11752,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 678,
@@ -9061,7 +11769,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 679,
@@ -9074,7 +11786,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 680,
@@ -9087,7 +11803,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 681,
@@ -9101,7 +11821,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 682,
@@ -9116,7 +11840,11 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 683,
@@ -9130,7 +11858,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 684,
@@ -9144,7 +11876,11 @@
       "correct": [
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 685,
@@ -9159,7 +11895,11 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 686,
@@ -9173,7 +11913,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 687,
@@ -9186,7 +11930,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 688,
@@ -9199,7 +11947,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 689,
@@ -9212,7 +11964,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 690,
@@ -9225,7 +11981,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 691,
@@ -9239,7 +11999,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 692,
@@ -9252,7 +12016,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 693,
@@ -9267,7 +12035,11 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 694,
@@ -9280,7 +12052,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 695,
@@ -9293,7 +12069,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 696,
@@ -9307,7 +12087,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 697,
@@ -9321,7 +12105,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 698,
@@ -9334,7 +12122,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 699,
@@ -9347,7 +12139,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 700,
@@ -9360,7 +12156,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 701,
@@ -9374,7 +12174,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 702,
@@ -9388,7 +12192,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 703,
@@ -9403,7 +12211,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 704,
@@ -9417,7 +12229,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 705,
@@ -9430,7 +12246,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 706,
@@ -9443,7 +12263,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 707,
@@ -9457,7 +12281,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 708,
@@ -9472,7 +12300,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 709,
@@ -9486,7 +12318,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 710,
@@ -9499,7 +12335,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 711,
@@ -9512,7 +12352,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 712,
@@ -9526,7 +12370,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 713,
@@ -9541,7 +12389,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 714,
@@ -9555,7 +12407,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 715,
@@ -9570,7 +12426,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 716,
@@ -9585,7 +12445,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 717,
@@ -9598,7 +12462,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 718,
@@ -9612,7 +12480,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 719,
@@ -9625,7 +12497,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 720,
@@ -9638,7 +12514,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 721,
@@ -9651,7 +12531,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 722,
@@ -9664,7 +12548,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 723,
@@ -9677,7 +12565,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 724,
@@ -9690,7 +12582,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 725,
@@ -9704,7 +12600,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 726,
@@ -9718,7 +12618,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 727,
@@ -9732,7 +12636,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 728,
@@ -9746,7 +12654,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 729,
@@ -9760,7 +12672,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 730,
@@ -9774,7 +12690,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 731,
@@ -9787,7 +12707,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 732,
@@ -9800,7 +12724,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 733,
@@ -9814,7 +12742,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 734,
@@ -9827,7 +12759,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 735,
@@ -9840,7 +12776,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 736,
@@ -9854,7 +12794,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 737,
@@ -9867,7 +12811,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 738,
@@ -9883,7 +12831,11 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 739,
@@ -9896,7 +12848,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 740,
@@ -9912,7 +12868,11 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 741,
@@ -9925,7 +12885,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 742,
@@ -9938,7 +12902,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 743,
@@ -9954,7 +12922,11 @@
         "B",
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 744,
@@ -9967,7 +12939,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 745,
@@ -9980,7 +12956,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 746,
@@ -9994,7 +12974,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 747,
@@ -10008,7 +12992,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 748,
@@ -10021,7 +13009,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "B",
+        "name": "Prawo handlowe"
+      }
     },
     {
       "id": 749,
@@ -10035,7 +13027,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "D",
+        "name": "Prawo podatkowe"
+      }
     },
     {
       "id": 750,
@@ -10049,7 +13045,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 751,
@@ -10062,7 +13062,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 752,
@@ -10075,7 +13079,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 753,
@@ -10088,7 +13096,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 754,
@@ -10101,7 +13113,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 755,
@@ -10114,7 +13130,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 756,
@@ -10127,7 +13147,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 757,
@@ -10141,7 +13165,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 758,
@@ -10155,7 +13183,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 759,
@@ -10169,7 +13201,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 760,
@@ -10182,7 +13218,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 761,
@@ -10196,7 +13236,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 762,
@@ -10210,7 +13254,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 763,
@@ -10224,7 +13272,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 764,
@@ -10238,7 +13290,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 765,
@@ -10253,7 +13309,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 766,
@@ -10267,7 +13327,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 767,
@@ -10281,7 +13345,11 @@
       "correct": [
         "C",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 768,
@@ -10295,7 +13363,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 769,
@@ -10309,7 +13381,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 770,
@@ -10324,7 +13400,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 771,
@@ -10337,7 +13417,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 772,
@@ -10350,7 +13434,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 773,
@@ -10363,7 +13451,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 774,
@@ -10376,7 +13468,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "E",
+        "name": "Działalność gospodarcza i zarządzanie finansami przedsiębiorstwa"
+      }
     },
     {
       "id": 775,
@@ -10389,7 +13485,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 776,
@@ -10402,7 +13502,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 777,
@@ -10416,7 +13520,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 778,
@@ -10431,7 +13539,11 @@
         "A",
         "B",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 779,
@@ -10444,7 +13556,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 780,
@@ -10457,7 +13573,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 781,
@@ -10471,7 +13591,11 @@
       "correct": [
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 782,
@@ -10484,7 +13608,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 783,
@@ -10497,7 +13625,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 784,
@@ -10512,7 +13644,11 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 785,
@@ -10526,7 +13662,11 @@
       "correct": [
         "A",
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 786,
@@ -10539,7 +13679,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 787,
@@ -10552,7 +13696,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 788,
@@ -10565,7 +13713,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 789,
@@ -10578,7 +13730,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 790,
@@ -10591,7 +13747,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 791,
@@ -10605,7 +13765,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 792,
@@ -10618,7 +13782,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 793,
@@ -10632,7 +13800,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 794,
@@ -10646,7 +13818,11 @@
       "correct": [
         "A",
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "F",
+        "name": "Dostęp do rynku"
+      }
     },
     {
       "id": 795,
@@ -10660,7 +13836,11 @@
       "correct": [
         "A",
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "C",
+        "name": "Prawo socjalne"
+      }
     },
     {
       "id": 796,
@@ -10673,7 +13853,11 @@
       },
       "correct": [
         "C"
-      ]
+      ],
+      "topic": {
+        "code": "H",
+        "name": "Bezpieczeństwo drogowe"
+      }
     },
     {
       "id": 797,
@@ -10686,7 +13870,11 @@
       },
       "correct": [
         "D"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 798,
@@ -10699,7 +13887,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "G",
+        "name": "Normy techniczne i techniczne aspekty działalności"
+      }
     },
     {
       "id": 799,
@@ -10712,7 +13904,11 @@
       },
       "correct": [
         "B"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     },
     {
       "id": 800,
@@ -10725,7 +13921,11 @@
       },
       "correct": [
         "A"
-      ]
+      ],
+      "topic": {
+        "code": "A",
+        "name": "Prawo cywilne"
+      }
     }
   ]
 }
