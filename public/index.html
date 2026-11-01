@@ -212,7 +212,9 @@
   var DATA_URL = 'questions.json'; // путь/URL, по которому сервер отдаёт приватный JSON с вопросами (например, через свой authenticated-роут)
   var DATA = null;
 
-  var EXAM_SIZE = 30;
+  var EXAM_GROUPS = 8;
+  var EXAM_PER_GROUP = 8;
+  var EXAM_SIZE = EXAM_GROUPS * EXAM_PER_GROUP;
   var EXAM_MS = 2 * 60 * 60 * 1000;
   var KEY_EXAM = 'ckz:exam2';
   var KEY_OPTS = 'ckz:opts2';
@@ -258,7 +260,7 @@
   }
 
   /* ---------- Подготовка вопросов ---------- */
-  var bank, byId, groups, uniqueIds;
+  var bank, byId, groups, uniqueIds, uniqueByTopic;
   function prepareBank() {
     bank = DATA.questions.map(function (raw) {
       var okSet = {};
@@ -266,6 +268,7 @@
       return {
         id: raw.id,
         q: raw.question,
+        topic: raw.topic && raw.topic.code,
         opts: Object.keys(raw.options).sort().map(function (l) { return { l: l, t: raw.options[l], ok: !!okSet[l] }; })
       };
     });
@@ -281,6 +284,14 @@
       groups[key].push(q.id);
     });
     uniqueIds = Object.keys(groups).map(function (k) { return Math.min.apply(null, groups[k]); });
+
+    /* Уникальные вопросы, разложенные по тематическим группам (поле topic у вопроса
+       с наименьшим номером в группе повторов — у повторов тема всегда одна и та же). */
+    uniqueByTopic = {};
+    uniqueIds.forEach(function (id) {
+      var t = byId[id].topic || '?';
+      (uniqueByTopic[t] = uniqueByTopic[t] || []).push(id);
+    });
   }
 
   var settings = { shuffle: false };
@@ -354,8 +365,23 @@
     } catch (e) {}
     return null;
   }
+  /* Экзаменационный набор: случайно выбирается тематическая группа, в ней —
+     случайный ещё не выбранный вопрос, пока в каждой из групп не наберётся
+     по EXAM_PER_GROUP вопросов (итог: EXAM_GROUPS * EXAM_PER_GROUP вопросов,
+     все уникальные, без повторов). Если в какой-то группе вопросов меньше,
+     чем нужно, берутся все, что в ней есть. Порядок вопросов в итоговом
+     наборе дополнительно перемешивается, чтобы группы не шли подряд. */
+  function pickExamIds() {
+    var pool = {};
+    Object.keys(uniqueByTopic).forEach(function (t) { pool[t] = shuffle(uniqueByTopic[t]); });
+    var picked = [];
+    Object.keys(pool).forEach(function (t) {
+      picked = picked.concat(pool[t].slice(0, EXAM_PER_GROUP));
+    });
+    return shuffle(picked);
+  }
   function startExam() {
-    var ids = shuffle(uniqueIds).slice(0, EXAM_SIZE);
+    var ids = pickExamIds();
     var now = Date.now();
     E = { ids: ids, ans: {}, idx: 0, startedAt: now, endsAt: now + EXAM_MS, finished: false, confirm: false, res: null };
     saveExam();
@@ -472,7 +498,7 @@
     }
     return head() +
       resume +
-      '<button type="button" class="home-btn' + (saved ? '' : ' primary') + '" data-act="exam"><b>' + (saved ? 'Новый экзамен' : 'Экзамен') + ': ' + EXAM_SIZE + ' билетов за 2 часа</b><span>' + EXAM_SIZE + ' случайных вопросов, таймер, ответы и разбор — в конце' + (saved ? '. Текущий экзамен будет сброшен' : '') + '</span></button>' +
+      '<button type="button" class="home-btn' + (saved ? '' : ' primary') + '" data-act="exam"><b>' + (saved ? 'Новый экзамен' : 'Экзамен') + ': ' + EXAM_SIZE + ' билетов за 2 часа</b><span>по ' + EXAM_PER_GROUP + ' случайных вопросов из каждой из ' + EXAM_GROUPS + ' тематических групп (' + EXAM_SIZE + ' всего, без повторов), таймер, ответы и разбор — в конце' + (saved ? '. Текущий экзамен будет сброшен' : '') + '</span></button>' +
       '<button type="button" class="home-btn" data-act="train"><b>Тренировка</b><span>Случайные вопросы из всех билетов, ответ проверяется сразу</span></button>' +
       '<label class="chk"><input type="checkbox" id="shuf"' + (settings.shuffle ? ' checked' : '') + '> Перемешивать варианты в тренировке</label>' +
       '<p class="small">Всего вопросов: ' + uniqueIds.length + ' (одинаковые вопросы, повторяющиеся в книге, считаются один раз). Верным считается ответ, в котором выбраны все правильные варианты и ни одного лишнего.</p>';
