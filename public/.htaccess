@@ -1,0 +1,17 @@
+# Полностью отключаем кеширование HTML-файлов в этой папке клиентским браузером
+# (и промежуточными прокси/CDN), чтобы при каждом открытии тянулась свежая
+# версия страницы, а не старая копия из кеша.
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.html?$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+    <FilesMatch "\.html?$">
+        ExpiresActive Off
+    </FilesMatch>
+</IfModule>
